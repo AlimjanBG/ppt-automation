@@ -1,5 +1,7 @@
 import { NextResponse } from 'next/server';
 import nodemailer from 'nodemailer';
+export const dynamic = 'force-dynamic';
+
 
 const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY;
 // 更新为 DeepSeek 的最新 API 地址
